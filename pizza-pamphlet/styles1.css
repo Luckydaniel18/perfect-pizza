@@ -1,7 +1,8 @@
-body {
+body {    
+    background-image: url("https://www.europizzaovens.co.uk/wp-content/uploads/2018/02/pizza-equipment.jpg");
     background-color: rgb(78, 150, 220);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+};
 .pizza {
     border: 1px solid burlywood;
     padding: 1em;
@@ -10,8 +11,8 @@ body {
     border-radius: 2em;
     width: 20em;
     display: inline-block;
-    min-height: 30em;
-    
+    min-height: 30em;   
+
 }
 
 .medium_pizza {
@@ -21,16 +22,19 @@ flex: 1
 
 .large_pizza {
     background-color: brown;
-    flex:2
+    flex: 1
 }
 
 .small_pizza {
     background-color: rgb(100, 56, 200);
-    flex:1
+    flex: 2
 }
 
-.contact_us {
-    background-color: magenta;
+.contact_us {    
+    background-color: #BCF4F5;
+    width: 90%;
+    height: 75px;
+    margin: 0em;
 }
 .special{
     background-color: black;
@@ -40,8 +44,7 @@ flex: 1
 @media (min-width: 760px) {
 
     body {
-        background-color: rgb(14, 6, 26);
-        
+        background-color: rgb(14, 6, 26);        
     }
 
 @media (min-width: 960px) {
